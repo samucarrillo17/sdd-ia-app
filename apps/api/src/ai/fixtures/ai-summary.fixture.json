@@ -1,0 +1,10 @@
+{
+  "summary": "Se analizaron 5 solicitudes ENVIADA. 2 ALTA, 2 MEDIA, 1 BAJA. 3 vencen en ≤3 días. 2 tienen faltante de stock.",
+  "recommendations": [
+    { "requestId": "11111111-1111-1111-1111-111111111111", "rank": 1, "action": "RESERVAR", "reason": "Prioridad ALTA, necesaria en 2 días." },
+    { "requestId": "22222222-2222-2222-2222-222222222222", "rank": 2, "action": "REVISAR", "reason": "Prioridad ALTA, faltante de stock en SKU ABC-123." },
+    { "requestId": "33333333-3333-3333-3333-333333333333", "rank": 3, "action": "RESERVAR", "reason": "Prioridad MEDIA, necesaria en 5 días." },
+    { "requestId": "44444444-4444-4444-4444-444444444444", "rank": 4, "action": "POSTERGAR", "reason": "Prioridad BAJA, necesaria en 20 días." },
+    { "requestId": "55555555-5555-5555-5555-555555555555", "rank": 5, "action": "RESERVAR", "reason": "Prioridad MEDIA, necesaria en 1 día." }
+  ]
+}
