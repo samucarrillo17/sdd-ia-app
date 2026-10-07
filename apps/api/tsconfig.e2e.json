@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "node16",
+    "resolvePackageJsonExports": false,
+    "target": "ES2022",
+    "outDir": "./dist-e2e",
+    "rootDir": ".",
+    "declaration": false,
+    "sourceMap": true,
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["test/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist", "dist-e2e"]
+}
